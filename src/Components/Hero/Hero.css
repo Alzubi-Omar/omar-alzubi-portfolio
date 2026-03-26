@@ -1,0 +1,25 @@
+.hero-container {
+  position: relative;
+  overflow: hidden;
+  min-height: 70vh;
+}
+
+.hero-section {
+  max-width: 69rem;
+  margin: auto;
+  padding: 1.2rem 2rem;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .hero-container {
+    padding: 0 1rem;
+  }
+
+  .hero-section {
+    padding: 1rem;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+}

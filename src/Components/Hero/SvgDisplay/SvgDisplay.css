@@ -1,0 +1,32 @@
+.svgs-container {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.svg {
+  position: absolute;
+  opacity: 0.18;
+  will-change: transform;
+  animation-name: snowingIcons;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  transition: opacity 0.5s;
+}
+
+.svg img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@keyframes snowingIcons {
+  0% {
+    transform: translateY(-120px);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
+}
