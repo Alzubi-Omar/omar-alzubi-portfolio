@@ -5,7 +5,7 @@ export const skillGroups = [
   },
   {
     title: "Backend Fundamentals",
-    skills: ["Node.js", "Express.js", "REST APIs"],
+    skills: ["Node.js", "Express.js", "REST APIs", "EJS"],
   },
   {
     title: "Databases",
