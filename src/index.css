@@ -1,0 +1,65 @@
+:root {
+  /* Gradients */
+  --gradient-primary: linear-gradient(270deg, #f08650 40%, #ffef15 100%);
+  --gradient-hover: linear-gradient(270deg, #f08650 30%, #b31591 100%);
+
+  /* Core Colors */
+  --color-white: #fff;
+  --color-dark: #161515;
+  --color-light-background: #f5f5f5;
+
+  /* UI Colors */
+  --color-hover: #f08650;
+  --color-hover-rgb: 240, 134, 80;
+  --color-hover-border: #ffef15;
+  --color-focus: var(--color-hover);
+
+  --color-border: #ccc;
+  --color-border-bottom: var(--color-hover);
+
+  --color-nav-menu-background: rgba(0, 0, 0, 0.7);
+
+  --color-skill-item-background: var(--color-hover);
+
+  /* NotFound page */
+  --color-primary-not-found: #0073e6;
+  --color-secondary-not-found: #005bb5;
+
+  --svgs-opacity: 0.4;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--color-dark);
+  color: var(--color-white);
+  font-family: "Muli", sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.page-loader {
+  min-height: 60vh;
+}
