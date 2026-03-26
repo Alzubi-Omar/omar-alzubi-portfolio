@@ -1,0 +1,162 @@
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 69rem;
+  margin: 0 auto;
+  padding: 0.2rem 0 0;
+  position: relative;
+}
+
+.header-brand {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.brand-link {
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  font-weight: 700;
+  color: var(--color-white);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  transition: color 0.25s ease;
+}
+
+.brand-link:hover {
+  color: var(--color-hover);
+}
+
+.brand-link {
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  font-weight: 700;
+  color: var(--color-white);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  transition: color 0.25s ease;
+}
+.header-meta {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.socials-desktop {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.social-link {
+  color: var(--color-white);
+  text-decoration: none;
+  font-size: 22px;
+  display: inline-flex;
+  transition:
+    color 0.2s ease,
+    transform 0.3s ease;
+}
+
+.social-link:hover {
+  color: var(--color-hover);
+  transform: scale(1.15);
+}
+
+/* Mobile toggle */
+.socials-toggle {
+  display: none;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.socials-drawer {
+  display: none;
+}
+
+.header-overlay {
+  display: none;
+}
+
+/* ── Responsive ── */
+@media (max-width: 1139px) {
+  .header-container {
+    max-width: 95%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    padding: 0.75rem 1rem 0;
+  }
+
+  .socials-desktop {
+    display: none;
+  }
+
+  .socials-toggle {
+    display: flex;
+    align-items: center;
+  }
+
+  .socials-drawer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(100%);
+    transition:
+      transform 0.4s ease-in-out,
+      opacity 0.3s ease-in-out,
+      visibility 0.3s ease-in-out;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    overflow-y: auto;
+    background-color: var(--color-nav-menu-background);
+    backdrop-filter: blur(8px);
+    width: clamp(280px, 25%, 400px);
+    box-sizing: border-box;
+    padding: 60px 32px;
+    z-index: 15;
+  }
+
+  .socials-drawer.show {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .socials-drawer .social-link {
+    font-size: 28px;
+  }
+
+  /* Backdrop */
+  .header-overlay {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    transition:
+      opacity 0.3s ease,
+      visibility 0.3s ease;
+  }
+
+  .header-overlay.show {
+    visibility: visible;
+    opacity: 1;
+  }
+}
