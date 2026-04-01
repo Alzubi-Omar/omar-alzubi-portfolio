@@ -21,8 +21,8 @@ const HeroInfo = ({ isHovered = false }) => {
           architecture, responsive UI, and real-world API integration.
         </p>
         <p className="hero-subline">
-          Product-minded from business & management experience · Always building
-          something new · Travel adventurer 🧳
+          Product-minded from business &amp; management experience · Always
+          building something new · Travel adventurer 🧳
         </p>
       </div>
     </div>

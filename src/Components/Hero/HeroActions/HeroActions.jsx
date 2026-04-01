@@ -8,7 +8,6 @@ const HeroActions = () => {
         View Projects
       </a>
 
-      {/* TODO: Update resume.pdf later */}
       <a
         href="/resume.pdf"
         target="_blank"

@@ -39,7 +39,3 @@ dist-ssr
 *.pid
 *.seed
 *.pid.lock  
-
-
-# TDO later 
-public/resume.pdf
