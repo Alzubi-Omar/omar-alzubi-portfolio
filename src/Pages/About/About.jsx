@@ -15,8 +15,8 @@ const About = () => {
             background in Software Engineering, Project Management, and
             Management Information Systems. I enjoy turning ideas into
             responsive, user-friendly interfaces that are clear, maintainable,
-            and built for real-world use. Currently seeking frontend roles where
-            I can contribute to modern web products.
+            and built for real-world use. Currently seeking frontend and product
+            roles where I can contribute to modern web products.
           </p>
         </header>
 
@@ -81,9 +81,9 @@ const About = () => {
           <article className="about-section-item about-section-item--full">
             <h2 className="about-section-item__title">Looking Ahead</h2>
             <p className="about-section-item__content">
-              Right now I'm focused on frontend roles where I can work on real
-              products, grow within a strong engineering team, and apply both my
-              technical and product thinking to meaningful problems.
+              Right now I'm focused on frontend and product opportunities where
+              I can work on real products, grow within a strong team, and apply
+              both my technical and product thinking to meaningful problems.
             </p>
           </article>
         </div>
