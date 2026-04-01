@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./AboutPreview.css";
-import profileImg from "@/assets/images/profileImg.png";
+import profileImg from "@/assets/images/profile_img.png";
 
 const AboutPreview = () => {
   return (

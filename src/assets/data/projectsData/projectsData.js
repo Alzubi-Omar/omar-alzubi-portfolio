@@ -2,126 +2,76 @@ import project_one from "@/assets/images/project_one.png";
 import project_two from "@/assets/images/project_two.png";
 import project_three from "@/assets/images/project_three.png";
 import project_four from "@/assets/images/project_four.png";
+import project_five from "@/assets/images/project_five.png";
 
 export const projectsData = [
   {
     id: 1,
-    title: "Web Design",
+    title: "ToDoList",
     description:
-      "1 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "A full-stack task management app that lets users create custom lists, add and edit items, and delete tasks — all persisted in MongoDB.",
     image: project_one,
-    liveSiteUrl: "https://puff-of-air-1.onrender.com/",
-    type: "E-Commerce",
-    stack: [
-      "React",
-      "Redux",
-      "Node.js",
-      "Express",
-      "MongoDB",
-      "AWS S3",
-      "Stripe API",
-    ],
+    liveSiteUrl: "https://to-do-list-app-m7vn.onrender.com",
+    type: "Productivity Tool",
+    stack: ["Node.js", "Express.js", "MongoDB", "Mongoose", "EJS"],
     extendedDescription:
-      "This project is an end-to-end e-commerce solution that allows users to browse products, add items to their cart, and securely check out using Stripe. The platform includes an admin panel for product and order management.",
+      "Built with Node.js and Express.js, using MongoDB with Mongoose for data persistence. Users can create multiple custom lists, add items to each list, edit item details, and delete tasks as needed. The app provides a clean and intuitive interface for managing tasks efficiently across sessions.",
     featured: true,
     category: "featured",
   },
   {
     id: 2,
-    title: "Portfolio Website",
+    title: "Daily Journal",
     description:
-      "A personal portfolio website to showcase projects, skills, and contact information.",
+      "A password-protected full-stack journal app where users can create, view, edit, and delete personal blog posts stored in PostgreSQL.",
     image: project_two,
-    liveSiteUrl: "https://to-do-list-app-6sqc.onrender.com/",
-    type: "Personal Portfolio",
-    stack: ["HTML", "CSS", "JavaScript", "React", "Netlify"],
+    liveSiteUrl: "https://daily-journal-fuvd.onrender.com/",
+    type: "Personal Tool",
+    stack: ["Node.js", "Express.js", "PostgreSQL", "bcrypt", "EJS"],
     extendedDescription:
-      "Built with a responsive design to provide a seamless experience on all devices. Features include a projects showcase, skillsets, and a contact form integrated with a serverless backend.",
+      "Built with Express.js and PostgreSQL for persistent storage. Each post is password-protected using bcrypt hashing — users must authenticate before editing or deleting entries. Features include full CRUD operations, secure password comparison, and a clean EJS-rendered interface for managing personal journal entries.",
     featured: true,
     category: "featured",
   },
   {
     id: 3,
-    title: "Task Management App",
+    title: "Puff of Air",
     description:
-      "A task management app to help individuals and teams stay organized and productive.",
+      "A real-time weather app that lets you search current conditions for any city worldwide, built with a clean server-rendered architecture.",
     image: project_three,
-    liveSiteUrl: "https://alzubi-omar.github.io/Dice-Roll-Game/",
-    type: "Productivity Tool",
-    stack: ["React", "TypeScript", "Firebase", "Material-UI"],
+    liveSiteUrl: "https://puff-of-air-1.onrender.com/",
+    type: "Utility",
+    stack: ["Node.js", "Express", "EJS", "OpenWeatherMap API", "Helmet.js"],
     extendedDescription:
-      "This app offers features like task creation, deadlines, and team collaboration. Data persistence is handled through Firebase, and the UI is styled with Material-UI for a professional look and feel.",
+      "Built with Node.js and Express using a clean separation of concerns — config, middleware, services, and routes each in their own layer. Uses the OpenWeatherMap Geocoding API to convert city names to coordinates before fetching live weather data. Features include Helmet.js security headers, rate limiting, request logging, and graceful error handling.",
     featured: true,
     category: "featured",
   },
   {
     id: 4,
-    title: "Financial Dashboard",
+    title: "Dice Roll Game",
     description:
-      "A financial dashboard for tracking income, expenses, and savings goals.",
+      "A two-player turn-based dice game where the first player to reach 100 points wins. Roll, hold, and strategize your way to victory.",
     image: project_four,
-    type: "Financial Services",
-    stack: ["Next.js", "Apollo GraphQL", "PostgreSQL", "AWS Lambda"],
+    liveSiteUrl: "https://alzubi-omar.github.io/dice-roll-game/",
+    type: "Game",
+    stack: ["HTML5", "CSS3", "JavaScript"],
     extendedDescription:
-      "The dashboard provides real-time insights into financial data. It integrates with multiple APIs to pull data and provides customizable visualizations for users to track their financial health.",
+      "A fun interactive game built with vanilla JavaScript. Players take turns rolling a dice — rolling a 1 resets the round score, while holding adds it to the total. Features dynamic dice animations, turn switching, winner detection, and a reset option for new rounds.",
     featured: false,
     category: "experiment",
   },
   {
     id: 5,
-    title: "web Design",
+    title: "Guess the Number",
     description:
-      "5 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-    image: project_four,
-    type: "Event Management",
-    stack: ["React", "Node.js", "Express", "MySQL", "Docker"],
+      "A number guessing game where players try to find the secret number between 1 and 30, with high/low feedback and score tracking.",
+    image: project_five,
+    liveSiteUrl: "https://alzubi-omar.github.io/guess-the-number-game/",
+    type: "Game",
+    stack: ["HTML5", "CSS3", "JavaScript"],
     extendedDescription:
-      "This platform simplifies the event booking process by providing features like seat selection, ticket generation, and payment processing. The backend is containerized with Docker for scalability.",
-    featured: false,
-    category: "experiment",
-  },
-  {
-    id: 6,
-    title: "web Design",
-    description:
-      "6 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-    image: project_four,
-    type: "Content Management",
-    stack: ["React", "GraphQL", "Apollo Server", "MongoDB"],
-    extendedDescription:
-      "The platform supports user authentication, WYSIWYG editors for writing content, and SEO optimization for articles. Built with a focus on scalability and performance.",
-    featured: false,
-    category: "experiment",
-  },
-  {
-    id: 7,
-    title: "web Design",
-    description:
-      "7 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-    image: project_four,
-    type: "Utility",
-    stack: ["React", "CSS", "OpenWeather API"],
-    extendedDescription:
-      "The app fetches weather data using the OpenWeather API and presents it in a clean and intuitive interface. Features include location search, hourly and weekly forecasts, and weather alerts.",
-    featured: false,
-    category: "experiment",
-  },
-  {
-    id: 8,
-    title: "web Design",
-    description:
-      "8 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-    image: project_four,
-    type: "Business Management",
-    stack: [
-      "Angular",
-      "Spring Boot",
-      "PostgreSQL",
-      "Docker",
-      "AWS Elastic Beanstalk",
-    ],
-    extendedDescription:
-      "Designed to streamline inventory tracking, reduce manual errors, and provide real-time analytics. The system includes role-based access control and integration with third-party tools like QuickBooks.",
+      "Built with vanilla JavaScript. Players guess a randomly generated number between 1 and 30, receiving feedback if their guess is too high or too low. Tracks current score and highscore across sessions, supports keyboard input via Enter key, and includes smooth animations.",
     featured: false,
     category: "experiment",
   },

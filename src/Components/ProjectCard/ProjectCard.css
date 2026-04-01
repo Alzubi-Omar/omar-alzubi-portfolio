@@ -51,6 +51,7 @@
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+  line-clamp: 3;
   overflow: hidden;
 }
 
@@ -119,6 +120,7 @@
 
 .project-card.project-card-main .project-card-description {
   -webkit-line-clamp: 4;
+  line-clamp: 4;
 }
 
 /* ── Details page modifier ── */

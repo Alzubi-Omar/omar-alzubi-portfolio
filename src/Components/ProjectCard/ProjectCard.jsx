@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProjectCard.css";
 import PropTypes from "prop-types";
-import placeholder from "@/assets/images/placeholder.png";
+import placeHolder from "@/assets/images/place_holder.png";
 
 const ProjectCard = ({
   project,
@@ -13,7 +13,7 @@ const ProjectCard = ({
 }) => (
   <div className={`project-card ${className}`}>
     <img
-      src={project.image || placeholder}
+      src={project.image || placeHolder}
       alt={project.title}
       className="project-card-image"
       loading="lazy"

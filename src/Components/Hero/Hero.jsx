@@ -5,11 +5,12 @@ import htmlSvg from "@/assets/svgs/html.svg";
 import reactSvg from "@/assets/svgs/react.svg";
 import jsSvg from "@/assets/svgs/js.svg";
 import SvgDisplay from "./SvgDisplay/SvgDisplay";
+import postgresqlSvg from "@/assets/svgs/postgresql.svg";
+import MongoDBSvg from "@/assets/svgs/mongodb.svg";
 import HeroInfo from "./HeroInfo/HeroInfo";
 import HeroActions from "./HeroActions/HeroActions";
 
-const svgCollection = [htmlSvg, reactSvg, jsSvg];
-
+const svgCollection = [htmlSvg, reactSvg, jsSvg, postgresqlSvg, MongoDBSvg];
 const Hero = () => {
   const { isHovered } = useContext(HoverContext);
 
