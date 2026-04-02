@@ -39,7 +39,7 @@ src/
 
 ## Live Site
 
-Coming soon.
+https://omar-alzubi-portfolio.netlify.app/
 
 ## Contact
 
