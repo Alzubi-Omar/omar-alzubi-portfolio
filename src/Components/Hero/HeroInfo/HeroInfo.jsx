@@ -22,7 +22,7 @@ const HeroInfo = ({ isHovered = false }) => {
         </p>
         <p className="hero-subline">
           Product-minded from business &amp; management experience · Always
-          building something new · Travel adventurer 🧳
+          building something new · Travel adventurer ✈️
         </p>
       </div>
     </div>
