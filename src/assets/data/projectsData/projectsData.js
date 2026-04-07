@@ -39,7 +39,7 @@ export const projectsData = [
     description:
       "A real-time weather app that lets you search current conditions for any city worldwide, built with a clean server-rendered architecture.",
     image: project_three,
-    liveSiteUrl: "https://puff-of-air-1.onrender.com/",
+    liveSiteUrl: "https://puff-of-air.onrender.com/",
     type: "Utility",
     stack: ["Node.js", "Express", "EJS", "OpenWeatherMap API", "Helmet.js"],
     extendedDescription:
