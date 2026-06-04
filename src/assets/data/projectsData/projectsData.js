@@ -25,7 +25,7 @@ export const projectsData = [
     description:
       "A password-protected full-stack journal app where users can create, view, edit, and delete personal blog posts stored in PostgreSQL.",
     image: project_two,
-    liveSiteUrl: "https://daily-journal-fuvd.onrender.com/",
+    liveSiteUrl: "https://daily-journal-3avl.onrender.com/",
     type: "Personal Tool",
     stack: ["Node.js", "Express.js", "PostgreSQL", "bcrypt", "EJS"],
     extendedDescription:
