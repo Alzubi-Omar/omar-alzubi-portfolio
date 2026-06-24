@@ -3,6 +3,7 @@ import project_two from "@/assets/images/project_two.png";
 import project_three from "@/assets/images/project_three.png";
 import project_four from "@/assets/images/project_four.png";
 import project_five from "@/assets/images/project_five.png";
+import project_six from "@/assets/images/project_six.png";
 
 export const projectsData = [
   {
@@ -74,5 +75,28 @@ export const projectsData = [
       "Built with vanilla JavaScript. Players guess a randomly generated number between 1 and 30, receiving feedback if their guess is too high or too low. Tracks current score and highscore across sessions, supports keyboard input via Enter key, and includes smooth animations.",
     featured: false,
     category: "experiment",
+  },
+  {
+    id: 6,
+    title: "Personal Finance Dashboard",
+    description:
+      "A data-heavy React + TypeScript app for tracking transactions, visualizing spending trends, and managing budgets — built with TanStack Query, Zod, and Recharts.",
+    image: project_six,
+    liveSiteUrl: "",
+    githubUrl: "https://github.com/Alzubi-Omar/finance-dashboard",
+    type: "Finance Tool",
+    status: "in-progress",
+    stack: [
+      "React",
+      "TypeScript",
+      "TanStack Query",
+      "Recharts",
+      "Zod",
+      "Tailwind CSS",
+    ],
+    extendedDescription:
+      "Built with React 18 and TypeScript using Vite. Features full transaction CRUD with React Hook Form and Zod validation, TanStack Query for data management, and Recharts for spending analytics. Demonstrates modern frontend patterns including custom hooks, typed schemas, and component composition.",
+    featured: true,
+    category: "featured",
   },
 ];
