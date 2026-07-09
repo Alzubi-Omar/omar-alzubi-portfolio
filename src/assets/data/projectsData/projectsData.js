@@ -8,24 +8,10 @@ import project_six from "@/assets/images/project_six.png";
 export const projectsData = [
   {
     id: 1,
-    title: "ToDoList",
-    description:
-      "A full-stack task management app that lets users create custom lists, add and edit items, and delete tasks — all persisted in MongoDB.",
-    image: project_one,
-    liveSiteUrl: "https://to-do-list-app-m7vn.onrender.com",
-    type: "Productivity Tool",
-    stack: ["Node.js", "Express.js", "MongoDB", "Mongoose", "EJS"],
-    extendedDescription:
-      "Built with Node.js and Express.js, using MongoDB with Mongoose for data persistence. Users can create multiple custom lists, add items to each list, edit item details, and delete tasks as needed. The app provides a clean and intuitive interface for managing tasks efficiently across sessions.",
-    featured: true,
-    category: "featured",
-  },
-  {
-    id: 2,
     title: "Daily Journal",
     description:
       "A password-protected full-stack journal app where users can create, view, edit, and delete personal blog posts stored in PostgreSQL.",
-    image: project_two,
+    image: project_one,
     liveSiteUrl: "https://daily-journal-3avl.onrender.com/",
     type: "Personal Tool",
     stack: ["Node.js", "Express.js", "PostgreSQL", "bcrypt", "EJS"],
@@ -35,16 +21,30 @@ export const projectsData = [
     category: "featured",
   },
   {
-    id: 3,
+    id: 2,
     title: "Puff of Air",
     description:
       "A real-time weather app that lets you search current conditions for any city worldwide, built with a clean server-rendered architecture.",
-    image: project_three,
+    image: project_two,
     liveSiteUrl: "https://puff-of-air.onrender.com/",
     type: "Utility",
     stack: ["Node.js", "Express", "EJS", "OpenWeatherMap API", "Helmet.js"],
     extendedDescription:
       "Built with Node.js and Express using a clean separation of concerns — config, middleware, services, and routes each in their own layer. Uses the OpenWeatherMap Geocoding API to convert city names to coordinates before fetching live weather data. Features include Helmet.js security headers, rate limiting, request logging, and graceful error handling.",
+    featured: true,
+    category: "featured",
+  },
+  {
+    id: 3,
+    title: "ToDoList",
+    description:
+      "A full-stack task management app that lets users create custom lists, add and edit items, and delete tasks — all persisted in MongoDB.",
+    image: project_three,
+    liveSiteUrl: "https://to-do-list-app-m7vn.onrender.com",
+    type: "Productivity Tool",
+    stack: ["Node.js", "Express.js", "MongoDB", "Mongoose", "EJS"],
+    extendedDescription:
+      "Built with Node.js and Express.js, using MongoDB with Mongoose for data persistence. Users can create multiple custom lists, add items to each list, edit item details, and delete tasks as needed. The app provides a clean and intuitive interface for managing tasks efficiently across sessions.",
     featured: true,
     category: "featured",
   },
