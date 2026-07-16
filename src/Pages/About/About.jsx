@@ -11,12 +11,14 @@ const About = () => {
             code
           </h1>
           <p className="about-intro">
-            I'm Omar AlzuBi, a React-focused frontend developer with a
-            background in Software Engineering, Project Management, and
-            Management Information Systems. I enjoy turning ideas into
-            responsive, user-friendly interfaces that are clear, maintainable,
-            and built for real-world use. Currently seeking frontend and product
-            roles where I can contribute to modern web products.
+            I'm Omar AlzuBi, a full-stack engineer working across React on the
+            front end and Node.js, Express, and PostgreSQL on the back end, with
+            a decade of project and operations management experience behind that
+            technical work. I enjoy turning ideas into complete,
+            production-grade applications — from database design through the
+            interface — that are secure, maintainable, and built for real-world
+            use. Currently seeking full-stack engineering and technical project
+            management roles where I can contribute to real products.
           </p>
         </header>
 
@@ -27,22 +29,27 @@ const About = () => {
               My interest in technology started early and grew into formal study
               in Software Engineering, followed by an MBA focused on Project
               Management and MIS. That combination gave me both technical
-              foundations and a broader product mindset.
+              foundations and a broader product mindset — and a career that
+              moved from hands-on engineering into operations leadership before
+              returning fully to code.
             </p>
             <p className="about-section-item__content">
-              Today, my focus is frontend development with JavaScript and React,
-              while also maintaining working knowledge of backend fundamentals
-              like Node.js, Express, and API integration.
+              Today, my focus spans the full stack: React and modern JavaScript
+              on the front end, and Node.js, Express, and PostgreSQL on the back
+              end — including authentication, security hardening, and API
+              design.
             </p>
           </article>
 
           <article className="about-section-item">
             <h2 className="about-section-item__title">How I Build</h2>
             <p className="about-section-item__content">
-              I care about structure as much as visuals. I like building
-              interfaces with reusable components, clean layout systems,
-              meaningful naming, and code that stays understandable as projects
-              grow.
+              I care about structure as much as visuals. I like building systems
+              with reusable components, clean data layers, meaningful naming,
+              and code that stays understandable as projects grow — whether
+              that's a React component tree or a PostgreSQL schema. My goal is
+              not just to make things work, but to make them secure,
+              maintainable, and easy to scale.
             </p>
             <p className="about-section-item__content">
               My goal is not just to make things work, but to make them easier
@@ -54,14 +61,18 @@ const About = () => {
             <h2 className="about-section-item__title">What I Bring</h2>
             <ul className="about-section-item__list">
               <li>
-                Strong foundation in modern JavaScript, React, and responsive UI
-                development
+                Full-stack development across React, Node.js, Express, and
+                PostgreSQL, including authentication and security hardening
               </li>
               <li>
-                Product awareness shaped by business, management, and systems
-                thinking
+                A decade of project and operations management experience — real
+                stakeholder communication, delivery ownership, and
+                cross-functional coordination
               </li>
-              <li>Clear communication and a collaborative mindset</li>
+              <li>
+                Clear communication and a collaborative mindset across both
+                technical and business conversations
+              </li>
               <li>
                 A learning-first approach with real commitment to continuous
                 improvement
@@ -81,9 +92,10 @@ const About = () => {
           <article className="about-section-item about-section-item--full">
             <h2 className="about-section-item__title">Looking Ahead</h2>
             <p className="about-section-item__content">
-              Right now I'm focused on frontend and product opportunities where
-              I can work on real products, grow within a strong team, and apply
-              both my technical and product thinking to meaningful problems.
+              Right now I'm focused on full-stack engineering and technical
+              project management opportunities where I can work on real
+              products, grow within a strong team, and apply both my technical
+              and delivery experience to meaningful problems.
             </p>
           </article>
         </div>

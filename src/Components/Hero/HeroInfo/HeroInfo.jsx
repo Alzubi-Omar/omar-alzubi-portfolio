@@ -10,15 +10,16 @@ const HeroInfo = ({ isHovered = false }) => {
       <h1 className="hero-info">
         <span className={`name ${isHovered ? "hovered" : ""}`}>Omar</span>
         <span className="hero-title">
-          React Front-End Developer{" "}
-          <span className="hero-title-muted">· APIs &amp; Node</span>
+          Full-Stack Engineer{" "}
+          <span className="hero-title-muted">· React &amp; Node.js</span>
         </span>
       </h1>
 
       <div className={`hero-p ${isHovered ? "hovered" : ""}`}>
         <p>
-          I build clean, scalable React interfaces with strong component
-          architecture, responsive UI, and real-world API integration.
+          I build full-stack applications with React, Node.js, and PostgreSQL —
+          clean component architecture on the front end, secure and
+          well-structured APIs on the back end.
         </p>
         <p className="hero-subline">
           Product-minded from business &amp; management experience · Always
